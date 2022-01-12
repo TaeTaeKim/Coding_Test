@@ -34,3 +34,9 @@ def solution(lines):
                 maxcnt = cnt
 
     return maxcnt
+
+
+
+# 처음 시도에는 날짜를 datetime을 사용하지 않고 구현하려 했지만 부동소수점문제 등의 발생과 time의 사칙연산이 힘들어 datetime module을 이용하기로 함.
+# 오랜만에 다뤄보는 datetime에 대해 docu를 보면서 strptime, strftime, format 코드, timedelta에 대한 개념을 다시 학습
+# 마지막 처리 작업수 분기에서 포함관계 조건에 대한 예외학습
