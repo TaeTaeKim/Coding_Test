@@ -1,4 +1,7 @@
 # 내가 푼 풀이 : 큐와 튜플을 이용한 검출법
+
+# 초반에 인쇄순서를 반환하는 알고리즘은 완성했지만
+# location을 detect할 방법을 찾다가 tuple로 각자의 index를 같이 보내도록함
 from collections import deque
 def solution(priorities,location):
     maxprior = max(priorities)
